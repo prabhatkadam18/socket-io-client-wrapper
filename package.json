@@ -1,0 +1,29 @@
+{
+  "name": "phygital-socket-sdk",
+  "version": "1.0.0",
+  "description": "A simple SDK wrapper for NestJS WebSocket server with auto-retry support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w",
+    "lint": "eslint . --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "websocket",
+    "sdk",
+    "nestjs",
+    "socket.io",
+    "react"
+  ],
+  "author": "Prabhat",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  }
+}
