@@ -1,9 +1,12 @@
 {
-  "name": "phygital-socket-sdk",
+  "name": "socket-wrapper-sdk",
   "version": "1.0.0",
   "description": "A simple SDK wrapper for NestJS WebSocket server with auto-retry support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "watch": "tsc -w",
